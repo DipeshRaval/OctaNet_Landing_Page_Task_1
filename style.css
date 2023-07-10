@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background: #000; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url("https://wallpapercave.com/wp/aZKICPt.jpg");
+  background-size: cover;
+  /* height: 100vh; */
+  color: whitesmoke;
+}
+
+.box {
+  padding: 1em 2em;
+}
+
+footer,
+header {
+  text-align: center;
+  padding: 1em 2em;
+  background: #000;
+}
+
+header h2 {
+  display: inline;
+  padding-bottom: 3px;
+  border-bottom: 3px solid whitesmoke;
+}
+nav {
+  background-color: rgba(2, 46, 83, 0.481);
+}
+nav a {
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 1em 2em;
+  font-weight: bold;
+}
+nav a:hover {
+  background-color: rgb(12, 125, 125);
+}
+
+h1,
+h2,
+h3,
+p,
+button {
+  margin: 1em 0;
+}
+
+button {
+  padding: 0.6em 2em;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: 700;
+  color: whitesmoke;
+  background-color: rgba(188, 94, 5, 0.512);
+}
+
+button:hover {
+  background-color: rgba(0, 0, 255, 0.451);
+}
+
+.container {
+  /* border: 1px solid white; */
+  width: 50%;
+  margin: auto 1em;
+  padding: 1em 3em;
+  position: absolute;
+  top: 30%;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
